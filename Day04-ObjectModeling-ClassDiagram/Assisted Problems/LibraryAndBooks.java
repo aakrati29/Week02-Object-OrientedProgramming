@@ -30,12 +30,12 @@ class Library {
         this.books = new ArrayList<>();
     }
 
-    // Method to add a book to the library
+    // Create a method to add a book to the library
     public void addBook(Book book) {
         books.add(book);
     }
 
-    // Craete a method to display all books in the library
+    // Create a method to display all books in the library
     public void displayBooks() {
         System.out.println("Books in the library : ");
         for (Book book : books) {
